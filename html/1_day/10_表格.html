@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格</title>
+</head>
+<body>
+<!--
+border:单元哥宽度，默认是0
+cellspacing :单元格间距
+cellpadding :单元格边线到内容之间的距离
+caption 标头
+-->
+<table border="1" cellspacing="0" cellpadding="5" width="500">
+    <caption><h2>学生信息表</h2></caption>
+    <tr>
+        <td>学生姓名</td>
+        <td>性别</td>
+        <td>年龄</td>
+        <td>班级</td>
+     </tr>
+<!-- align="center 水平对齐  -->
+<!-- rowapan :跨行向下合并   -->
+<!-- colspan :跨行合并向右合并-->
+       <tr align="center">
+        <td>川普</td>
+        <td rowspan="2">男</td>
+        <td>60</td>
+        <td rowspan="2">美国</td>
+       </tr>
+    <tr>
+        <td height="50" align="right">小布什</td>
+
+        <td>50</td>
+
+    </tr>
+    <tr>
+        <td height="50" align="right">老布什</td>
+        <td>男</td>
+        <td>70</td>
+        <td>美国2</td>
+    </tr>
+
+
+</table>
+</body>
+</html>
